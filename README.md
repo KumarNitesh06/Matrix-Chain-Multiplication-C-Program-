@@ -1,27 +1,27 @@
-# 📘 Matrix Chain Multiplication (C Program)
+# Matrix Chain Multiplication (C Program)
 
 ---
 
-## 📌 Description
+##  Description
 This C program solves the **Matrix Chain Multiplication** problem using **Dynamic Programming**.  
 It calculates the **minimum number of scalar multiplications** required and prints the **optimal parenthesization**.
 
 ---
 
 ##  Features
-- ✅ Computes minimum multiplication cost  
-- ✅ Displays step-by-step calculations  
-- ✅ Uses dynamic programming tables (`m` and `s`)  
-- ✅ Prints optimal multiplication order  
+- • Computes minimum multiplication cost  
+- • Displays step-by-step calculations  
+- • Uses dynamic programming tables (`m` and `s`)  
+- • Prints optimal multiplication order  
 
 ---
 
-## Algorithm Used
+##  Algorithm Used
 > Dynamic Programming approach to optimize matrix multiplication order.
 
 ---
 
-## Algorithm Steps
+##  Algorithm Steps
 1. Initialize `m[i][i] = 0`  
 2. Consider chain lengths from 2 to n  
 3. Compute cost for all possible splits  
